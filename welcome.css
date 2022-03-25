@@ -1,0 +1,119 @@
+@import url('fonts/Raleway/OFL.txt');
+
+
+
+
+*{
+    box-sizing: border-box;
+    /* font-family:'Inspiration', cursive; */
+    font-family: 'Raleway';
+    color: #777;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+.nav a{         /*this is to style the links in the nav bar*/
+    display: inline-block;
+    padding: .8em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    
+}
+
+.main-nav li{
+    padding: 0 1%;
+}
+
+.nav a:hover{
+    background-color: rgba(175, 11, 11, 0.3);
+}
+
+.main-header{
+    background-image: url(images/header1.webp);
+    background-color: rgba(129, 119, 119, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 350px;
+}
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color: rgba(189, 185, 185, 0.6);
+}
+
+.band-name-large{
+    font-size: 9em;
+
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em ;
+}
+
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: rgb(80, 18, 18);
+    padding: .25em 0;
+    
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    border-radius: 5px;
+    width: 30px; 
+    height: 30px;
+
+}
+
